@@ -10,7 +10,6 @@ body:
         as you're able. If you are reporting a visual glitch, it will be much easier
         for us to fix it when you attach a screenshot as well.
   - type: input
-  - type: input
     attributes:
       label: "OS name"
       description: What is your OS?

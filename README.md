@@ -1,4 +1,4 @@
-# JSA-markdown
+# JSalpha-markdown
 
-`JSA-markdown` Est un plugin du [JSA](https://github.com/augustinmauroy/jsa).
-Il permet de rendre du markdown dans un template JSA.
+`JSalpha-markdown-markdown` is a plugin of [JSA](https://github.com/augustinmauroy/jsa).
+It allows to render markdown in a JSA template.

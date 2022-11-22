@@ -1,5 +1,5 @@
 {
-  "name": "jsa-markdown",
+  "name": "jsalpha-markdown",
   "version": "1.0.0",
   "description": "JSA plugin to introduce data from a markdown into a template ",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "jsa": "^1.0.0",
+    "jsalpha": "^1.0.0",
     "markdown-it": "^13.0.1",
     "markdown-it-meta": "^0.0.1"
   }

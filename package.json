@@ -1,15 +1,16 @@
 {
   "name": "jsalpha-markdown",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "JSA plugin to introduce data from a markdown into a template ",
   "main": "index.js",
   "keywords": [
-    "JSA",
+    "jsalpha",
     "Plugin"
   ],
   "author": "AugustinMauroy",
   "license": "MIT",
   "type": "module",
+  "repository": {"url": "https://github.com/augustinmauroy/jsa-markdown"},
   "dependencies": {
     "jsalpha": "^1.0.0",
     "markdown-it": "^13.0.1",

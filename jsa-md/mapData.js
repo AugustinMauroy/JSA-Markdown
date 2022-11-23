@@ -9,12 +9,12 @@ export function mapData(markdown){
     htmlJson = htmlJson.toString().replace(/\\"/g, '"').replace(/"/g, '\\"'); /*replace " by /" */
 
     let result = `{
-        "mdContent" : "${htmlJson}",`;
+        "mdContent" : "${htmlJson}",\n`;
     for (let key in metaData) {
         let var_content = eval(`metaData .${key}`)
         result += `"${key}" : "${var_content}",\n`;
     }
-    result = result.substring(0, result.length - 1);
+    result = result.substring(0, result.length - 2);
     result += `}`;
     
     return JSON.parse(result)

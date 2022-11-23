@@ -14,7 +14,7 @@ export function mapData(markdown){
         let var_content = eval(`metaData .${key}`)
         result += `"${key}" : "${var_content}",\n`;
     }
-    result = result.substring(0, result.length - 2);
+    result = result.substring(0, result.length - 1);
     result += `}`;
     
     return JSON.parse(result)

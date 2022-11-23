@@ -1,5 +1,5 @@
 import fs         from 'node:fs';
-import { render } from 'jsa';
+import { render } from 'jsalpha';
 import mdMeta     from 'markdown-it-meta';
 import mdImport   from 'markdown-it';
 import { mapData } from './mapData.js'

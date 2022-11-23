@@ -1,10 +1,12 @@
 {
   "name": "jsalpha-markdown",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JSA plugin to introduce data from a markdown into a template ",
   "main": "index.js",
   "keywords": [
     "jsalpha",
+    "markdown",
+    "Markdown",
     "Plugin"
   ],
   "author": "AugustinMauroy",

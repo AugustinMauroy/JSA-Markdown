@@ -29,8 +29,8 @@ export function jsaMD(markdown, template){
     if(template === undefined){
         let html = md.render(markdown);
         let metaData = md.meta
-        if(metaData.layout){
-            var template = fs.readFileSync(metaData.layout, "utf-8", (err,data)=>{
+        if(metaData.layout || metaData.template){
+            var template = fs.readFileSync(metaData.layout || metaData.template, "utf-8", (err,data)=>{
                 if (err) {
                     throw err
                 } else {

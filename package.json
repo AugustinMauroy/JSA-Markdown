@@ -12,7 +12,9 @@
   "author": "AugustinMauroy",
   "license": "MIT",
   "type": "module",
-  "repository": {"url": "https://github.com/augustinmauroy/jsa-markdown"},
+  "repository": {
+    "url": "https://github.com/augustinmauroy/jsa-markdown"
+  },
   "dependencies": {
     "jsalpha": "^1.0.1",
     "markdown-it": "^13.0.1",
